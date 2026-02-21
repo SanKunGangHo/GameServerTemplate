@@ -13,18 +13,19 @@ public class MessageRepository : IMessageRepository
         _db = db;
     }
 
-    public async Task<Message> SaveAsync(long channelId, long userId, string content)
+    public async Task<Message> SaveAsync(long channelId, long userId, string username, string content)
     {
         const string sql = @"
-            INSERT INTO messages (channel_id, user_id, content)
-            VALUES (@ChannelId, @UserId, @Content)
-            RETURNING id, channel_id, user_id, content, sent_at";
+            INSERT INTO messages (channel_id, user_id, username, content)
+            VALUES (@ChannelId, @UserId, @Username, @Content)
+            RETURNING id, channel_id, user_id, username, content, sent_at";
 
         using var conn = _db.GetConnection();
         return await conn.QuerySingleAsync<Message>(sql, new
         {
-            ChannelId = channelId, 
-            UserId = userId, 
+            ChannelId = channelId,
+            UserId = userId,
+            Username = username,
             Content = content
         });
     }
