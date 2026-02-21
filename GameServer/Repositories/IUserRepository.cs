@@ -1,6 +1,6 @@
-using ChatServer.Models;
+using GameServer.Models;
 
-namespace ChatServer.Repositories;
+namespace GameServer.Repositories;
 
 public interface IUserRepository
 {

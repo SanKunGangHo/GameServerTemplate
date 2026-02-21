@@ -1,8 +1,8 @@
 ﻿using System.Security.Claims;
-using ChatServer.Database;
-using ChatServer.Repositories;
-using ChatServer.Services;
-using ChatServer.WebSockets;
+using GameServer.Database;
+using GameServer.Repositories;
+using GameServer.Services;
+using GameServer.WebSockets;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.IdentityModel.Tokens;
 using System.Text;

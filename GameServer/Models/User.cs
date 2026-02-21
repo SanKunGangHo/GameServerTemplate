@@ -1,4 +1,4 @@
-namespace ChatServer.Models;
+namespace GameServer.Models;
 
 public class User
 {

@@ -1,6 +1,6 @@
 using Npgsql;
 
-namespace ChatServer.Database;
+namespace GameServer.Database;
 
 public class DatabaseInitializer
 {

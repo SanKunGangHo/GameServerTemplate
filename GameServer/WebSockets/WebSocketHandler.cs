@@ -2,10 +2,10 @@ using System.Collections.Concurrent;
 using System.Net.WebSockets;
 using System.Text;
 using System.Text.Json;
-using ChatServer.Models;
-using ChatServer.Services;
+using GameServer.Models;
+using GameServer.Services;
 
-namespace ChatServer.WebSockets;
+namespace GameServer.WebSockets;
 
 public class WebSocketHandler
 {

@@ -1,8 +1,8 @@
 using Dapper;
-using ChatServer.Database;
-using ChatServer.Models;
+using GameServer.Database;
+using GameServer.Models;
 
-namespace ChatServer.Repositories;
+namespace GameServer.Repositories;
 
 public class UserRepository : IUserRepository
 {

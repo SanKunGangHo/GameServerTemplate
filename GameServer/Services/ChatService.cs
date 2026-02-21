@@ -1,7 +1,7 @@
-using ChatServer.Models;
-using ChatServer.Repositories;
+using GameServer.Models;
+using GameServer.Repositories;
 
-namespace ChatServer.Services;
+namespace GameServer.Services;
 
 public class ChatService
 {

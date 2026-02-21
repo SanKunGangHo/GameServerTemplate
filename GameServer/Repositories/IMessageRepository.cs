@@ -1,5 +1,5 @@
-using ChatServer.Models;
-namespace ChatServer.Repositories;
+using GameServer.Models;
+namespace GameServer.Repositories;
 
 public interface IMessageRepository
 {

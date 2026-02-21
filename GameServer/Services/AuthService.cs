@@ -2,10 +2,10 @@ using System.Text;
 using System.Security.Claims;
 using System.IdentityModel.Tokens.Jwt;
 using Microsoft.IdentityModel.Tokens;
-using ChatServer.Models;
-using ChatServer.Repositories;
+using GameServer.Models;
+using GameServer.Repositories;
 
-namespace ChatServer.Services;
+namespace GameServer.Services;
 
 public class AuthService
 {
