@@ -1,0 +1,22 @@
+# IDE
+.idea/
+.vscode/
+*.user
+*.suo
+
+# Build output
+bin/
+obj/
+
+# ASP.NET configuration (contains secrets)
+appsettings.Development.json
+appsettings.Production.json
+appsettings.Staging.json
+
+# Environment files
+.env
+.env.*
+
+# OS
+.DS_Store
+Thumbs.db
